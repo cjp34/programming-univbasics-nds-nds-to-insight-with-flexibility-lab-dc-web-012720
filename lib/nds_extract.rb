@@ -36,7 +36,7 @@ end
 require 'pry'
 
 def movies_with_director_key(name, movies_collection)
-  binding.pry
+
   
   new_array = [{name => movies_collection}]
   
