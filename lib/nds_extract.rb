@@ -95,6 +95,8 @@ return result
 end
 
 def movies_with_directors_set(source)
+  test_data = source
+  
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
   # INPUT:
