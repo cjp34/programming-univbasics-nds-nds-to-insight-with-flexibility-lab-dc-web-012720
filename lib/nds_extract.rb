@@ -100,13 +100,8 @@ def movies_with_directors_set(source)
   index = 0
   while index < source.length do
   director_name = source[index][:name]
-  movie_index = 0
-    while movie_index < source[index][:movies].length do
-      binding.pry
-      updated_movie = movies_with_director_key(director_name, source[index][:movies][movie_index])
+      updated_movie = movies_with_director_key(director_name, source[index][:movies])
       new_array.push(updated_movie)
-      movie_index += 1
-    end
   index += 1
 end
 
