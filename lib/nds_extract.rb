@@ -103,6 +103,7 @@ def movies_with_directors_set(source)
   movie_index = 0
     while movie_index < source[index][:movies].length do
       updated_movie = movies_with_director_key(director_name, source[index][:movies][movie_index])
+      binding.pry
       new_array.push(updated_movie)
       movie_index += 1
     end
