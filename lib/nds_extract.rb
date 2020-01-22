@@ -74,8 +74,9 @@ def gross_per_studio(collection)
       result[studio_name] = studio_gross
     else
       result[studio_name] += studio_gross
-    index += 1
+    
   end
+  index += 1
 end
 
 binding.pry
