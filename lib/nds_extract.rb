@@ -43,7 +43,7 @@ def movies_with_director_key(name, movies_collection)
     new_array.push(updated_movie)
     index += 1
   end
-binding.pry
+
 return new_array
 
   # GOAL: For each Hash in an Array (movies_collection), provide a collection
